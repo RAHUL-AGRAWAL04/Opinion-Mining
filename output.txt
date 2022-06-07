@@ -1,0 +1,26 @@
+Produt : Nikon coolpix 4300
+        Feature1 : camera
+                Positive : 100
+                Negative : 2
+        Feature2 : pictur
+                Positive : 34
+                Negative : 6
+        Feature3 : macro
+                Positive : 7
+                Negative : 0
+        Feature4 : size
+                Positive : 15
+                Negative : 0
+        Feature5 : weight
+                Positive : 3
+                Negative : 0
+        Feature6 : featur
+                Positive : 16
+                Negative : 0
+        Feature7 : manual
+                Positive : 4
+                Negative : 0
+        Feature8 : auto focu
+                Positive : 2
+                Negative : 0
+

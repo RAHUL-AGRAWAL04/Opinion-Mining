@@ -1,0 +1,46 @@
+#using stemmer to get root word of the perticular words
+#so that multiple similar words isn't repeated
+#for example:- camera and cameras refer to same context camera
+
+#path where data is stored
+#Scanning data directory
+
+#{name:{feature:{P:n,N:n}}} ## format to store data
+
+#for each directory in data directory
+
+    #Condition to skip hidden files
+        #scanning directory within data directory to get list files
+    
+    #for each files in directory d
+        #getting file/product name
+        
+        #condition to skip readme and hidden files
+           
+            #opening files
+                #Dictionary to store feature names and its positive and negative reviews.
+                #reading file content
+                #Creating list of lines available in file
+                
+                #parsing each line in a file
+                        #Skiping lines which doesn't have product review value
+                        
+                        #splitting line wrt '##' to get feature and its review value
+                        #splitting by ',' to get list of each feature with its value
+                        
+                        #for each feature in feature list named 'sl'
+                            #Splitting feature by '[' to get feature name and feature value
+                            #attr contains feature_name at position 0 and its value at position 1 with garbage character ']' at end
+                            
+                            #1. Stemming each feature name using stemmer in order to ensure no repetation
+                            #2. checking if feature name exists in features dictionry or not. If not adding it to the dict
+                            
+                            #clearing garbage character form freature value and adding feature value to the appropriate feature
+                            
+    #Here opinion mining of one product is completed and stored in dictionary names features
+    #adding features of product to product_reviews dictionary
+    #we need to remove extintion of file to get product name
+
+
+#Printing mined opinions
+        
